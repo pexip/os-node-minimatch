@@ -1,0 +1,5 @@
+brace-expansion
+ts-node		test
+@types/brace-expansion
+@types/node
+@types/tap	test

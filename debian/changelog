@@ -1,0 +1,222 @@
+node-minimatch (9.0.3-6) unstable; urgency=medium
+
+  [ Yadd ]
+  * Team upload
+  * Add "Multi-Arch: foreign" (Closes: #1080093)
+
+ -- Jérémy Lal <kapouer@melix.org>  Wed, 21 May 2025 11:42:48 +0200
+
+node-minimatch (9.0.3-5) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.7.0
+  * Build bundled version (Closes: #1079833)
+
+ -- Yadd <yadd@debian.org>  Wed, 28 Aug 2024 12:39:36 +0200
+
+node-minimatch (9.0.3-4) unstable; urgency=medium
+
+  * Team upload
+  * Source-only upload
+
+ -- Yadd <yadd@debian.org>  Thu, 12 Oct 2023 14:28:56 +0400
+
+node-minimatch (9.0.3-3) unstable; urgency=medium
+
+  * Team upload
+  * ts-node is required for nocheck profile
+  * binary upload to break circular dependency. Closes: #1052707.
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 26 Sep 2023 17:26:15 +0200
+
+node-minimatch (9.0.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Indicate that version 9 breaks node-glob <8.0.3+~cs8.4.15-2~
+  * Back to unstable
+
+ -- Yadd <yadd@debian.org>  Mon, 25 Sep 2023 07:23:16 +0400
+
+node-minimatch (9.0.3-1) experimental; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Drop component @types/minimatch
+  * New upstream version 9.0.3 (Closes: #1052428)
+  * Build with tsc
+  * Add patch to keep default export in CJS files (avoid too many regressions)
+
+ -- Yadd <yadd@debian.org>  Fri, 22 Sep 2023 07:06:58 +0400
+
+node-minimatch (5.1.1+~5.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 5.1.1+~5.1.2
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Nov 2022 15:47:33 +0100
+
+node-minimatch (5.1.0+~3.0.5-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 5.1.0+~3.0.5
+
+ -- Yadd <yadd@debian.org>  Wed, 18 May 2022 11:35:28 +0200
+
+node-minimatch (5.0.0+~3.0.5-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+  * Update test for tap >= 15:
+    - drop patch
+    - require node-tap >= 15
+
+ -- Yadd <yadd@debian.org>  Mon, 04 Apr 2022 12:39:47 +0200
+
+node-minimatch (5.0.0+~3.0.5-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 5.0.0+~3.0.5
+  * Update test patch
+
+ -- Yadd <yadd@debian.org>  Thu, 17 Feb 2022 10:56:14 +0100
+
+node-minimatch (3.1.1+~3.0.5-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 3.1.1+~3.0.5
+
+ -- Yadd <yadd@debian.org>  Sun, 13 Feb 2022 16:06:12 +0100
+
+node-minimatch (3.0.5+~3.0.5-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 3.0.5+~3.0.5
+
+ -- Yadd <yadd@debian.org>  Wed, 09 Feb 2022 17:06:14 +0100
+
+node-minimatch (3.0.4+~3.0.5-1) unstable; urgency=medium
+
+  [ Yadd ]
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch.
+
+  [ Yadd ]
+  * Add ctype=nodejs to component(s)
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * New upstream version 3.0.4+~3.0.5
+
+ -- Yadd <yadd@debian.org>  Fri, 31 Dec 2021 15:47:57 +0100
+
+node-minimatch (3.0.4+~3.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Embed @types/minimatch and repack
+  * Add a break against node-typescript-types < 20201105-1~
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 05 Nov 2020 11:07:32 +0100
+
+node-minimatch (3.0.4-4) unstable; urgency=medium
+
+  * Team upload
+  [ Jelmer Vernooĳ ]
+  * Remove unnecessary 'Testsuite: autopkgtest' header.
+  * Use secure copyright file specification URI.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto test & install
+  * Update copyright
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 19 Mar 2020 18:40:50 +0100
+
+node-minimatch (3.0.4-3) unstable; urgency=medium
+
+  * Team upload
+  * set section to javascript
+  * Bump policy (no changes)
+  * Upload to unstable
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 24 Aug 2017 23:47:29 +0200
+
+node-minimatch (3.0.4-2) experimental; urgency=medium
+
+  * Team upload
+  * Install package.json
+  * Install under /usr/lib/nodejs/minimatch
+    instead of /usr/lib/nodejs.
+  * Update copyright
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 13 Aug 2017 23:36:59 +0200
+
+node-minimatch (3.0.4-1) unstable; urgency=medium
+
+  [ Pirate Praveen ]
+  * Team upload
+  * New upstream release
+
+  [ Bastien Roucariès ]
+  * Bump policy no change
+  * Bump compat
+  * Enable testsuite
+  * Run autopkgtest suite in isolation
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 13 Aug 2017 22:44:56 +0200
+
+node-minimatch (3.0.3-1) unstable; urgency=medium
+
+  * New upstream version 3.0.3 (Closes: #843087)
+  * License switch to ISC
+  * Standards-Version 3.9.8
+  * Secure Vcs url
+  * Depends only on node-brace-expansion
+  * Bump debhelper to 9
+  * autopkgtest
+  * Patch to run tests using old tap
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 04 Nov 2016 00:35:44 +0100
+
+node-minimatch (1.0.0-1) unstable; urgency=medium
+
+  * Standards-Version: 3.9.5
+  * Move to pkg-javascript
+  * Imported Upstream version 1.0.0
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 29 Jul 2014 02:16:43 +0200
+
+node-minimatch (0.2.12-1) unstable; urgency=low
+
+  * Upstream update
+  * control:
+    + canonicalize Vcs fields
+    + Standards-Version 3.9.4
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 15 Aug 2013 15:58:52 +0200
+
+node-minimatch (0.2.11-1) experimental; urgency=low
+
+  * Upstream update.
+  * Add dependency on node-sigmund.
+  * Tighten dependency on node-lru-cache >= 2.
+  * Use github url in watch file.
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 23 Mar 2013 09:48:02 +0100
+
+node-minimatch (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #664143)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 17 Mar 2012 23:33:28 +0100
