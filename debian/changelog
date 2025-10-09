@@ -1,3 +1,9 @@
+node-minimatch (9.0.3-6+pexip24u1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 09 Oct 2025 15:35:45 +0100
+
 node-minimatch (9.0.3-6) unstable; urgency=medium
 
   [ Yadd ]

@@ -1,6 +1,7 @@
 Source: node-minimatch
-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
-Uploaders: Jérémy Lal <kapouer@melix.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Jérémy Lal <kapouer@melix.org>
 Section: javascript
 Testsuite: autopkgtest-pkg-nodejs
 Priority: optional
@@ -19,6 +20,7 @@ Vcs-Browser: https://salsa.debian.org/js-team/node-minimatch
 Vcs-Git: https://salsa.debian.org/js-team/node-minimatch.git
 Homepage: https://github.com/isaacs/minimatch
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://deb.debian.org/debian/ trixie
 
 Package: node-minimatch
 Architecture: all
