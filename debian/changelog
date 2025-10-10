@@ -1,4 +1,4 @@
-node-minimatch (9.0.3-6+pexip24u1) pexip; urgency=medium
+node-minimatch (9.0.3-6+pexip24u1) pexip-bookworm-nodejs22; urgency=medium
 
   * Prepare Pexip packaging
 
